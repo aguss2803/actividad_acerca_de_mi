@@ -1,0 +1,44 @@
+header{
+    background: blanchedalmond ;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#informacioPersonal, #habilidades{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#informacioPersonal h2, #habilidades h2{
+    text-align: center;
+    font-size: x-large;
+}
+
+#habilidades ul{
+    list-style-type:circle;
+}
+
+footer{
+    background: blanchedalmond;
+    color: brown;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    header, #informacioPersonal, #habilidades{
+        padding: 10px;
+        font-size: 20px;
+    }
+    h1, h2{
+        font-size: medium;
+    }
+}
